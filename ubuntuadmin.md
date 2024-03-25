@@ -6,6 +6,7 @@ So, to start let's add FTP to this server from the command line:
 After successful installation, we can create two users: user1 and user2:
 
 ![Picture15](https://github.com/mikekad1/firewallsandvpns/assets/62948569/36ab9390-647b-45cc-9545-a9cd927a816a)
+
 (I added passwords to both users for this project)
 
 We can than use FTP to upload file to each user's home directory to verify that everything is working correctly:
@@ -21,6 +22,7 @@ Let's make sure that user2 can read files in user1's home directory:
 Great! Now let's put this to use, upload a picture and see if we can display it as a webpage:
 
 ![Picture18](https://github.com/mikekad1/firewallsandvpns/assets/62948569/1f12aea9-956f-4335-988f-13dde5fb387a)
+
 (I used my college information here, you will need to use your own imagination for an index page)
 
 Finally, let's install phpMyAdmin:
@@ -38,6 +40,7 @@ Let's also verify that php-mbstring is installed:
 We should also check if gettext is installed:
 
 ![Picture22](https://github.com/mikekad1/firewallsandvpns/assets/62948569/27908a9e-abd7-48b4-b9d0-0cdbeac88b72)
+
 (we could optionally also install mcrypt, but it is unsupported by this version of Ubuntu)
 
 Next, let's restart the service and install iptables:
